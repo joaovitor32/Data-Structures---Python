@@ -97,9 +97,10 @@ class LinkedList:
                     previousNode.next=currentNode.next
                     currentNode.next=None
                     break
-                previousNode=currentNode
-                currentNode=currentNode.next
-                currentPosition+=1
+                else:
+                    previousNode=currentNode
+                    currentNode=currentNode.next
+                    currentPosition+=1
 
     def deleteEnd(self):
         if(self.head.next is Noe):
@@ -124,6 +125,5 @@ class LinkedList:
             print(currentNode.data)
             currentNode=currentNode.next
 
-#Node => data, next
-LinkedList=LinkedList(None)
+
 
