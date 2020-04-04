@@ -27,27 +27,6 @@ def mergeLists(firstList,secondList,mergedList):
         
 
 # First List
-nodeOne = Node(1)
-nodeTwo = Node(3)
-nodeThree = Node(4)
-firstList = LinkedList(None)
-firstList.insertEnd(nodeOne)
-firstList.insertEnd(nodeTwo)
-firstList.insertEnd(nodeThree)
-
-# Second List
-nodeFour = Node(2)
-nodeFive = Node(7)
-nodeSix = Node(9)
-secondList = LinkedList(None)
-secondList.insertEnd(nodeFour)
-secondList.insertEnd(nodeFive)
-secondList.insertEnd(nodeSix)
-
-print("Printing first list")
-firstList.printList()
-print("Printing second list")
-secondList.printList()
 
 mergedList = LinkedList(None)
 
